@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
             options={
                 "ordering": ("name",),
                 "verbose_name": "Circuit Document",
-                "verbose_name_plural": "Circuit Documments",
+                "verbose_name_plural": "Circuit Documents",
             },
         ),
         migrations.AlterModelOptions(
@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
             options={
                 "ordering": ("name",),
                 "verbose_name": "Device Document",
-                "verbose_name_plural": "Device Documments",
+                "verbose_name_plural": "Device Documents",
             },
         ),
         migrations.AlterModelOptions(
@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
             options={
                 "ordering": ("name",),
                 "verbose_name": "Device Type Document",
-                "verbose_name_plural": "Device Type Documments",
+                "verbose_name_plural": "Device Type Documents",
             },
         ),
         migrations.AlterModelOptions(
@@ -41,7 +41,7 @@ class Migration(migrations.Migration):
             options={
                 "ordering": ("-created", "name"),
                 "verbose_name": "Site Document",
-                "verbose_name_plural": "Site Documments",
+                "verbose_name_plural": "Site Documents",
             },
         ),
         migrations.AddField(
